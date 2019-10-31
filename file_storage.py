@@ -1,7 +1,7 @@
 # encoding=utf8
 
 import time
-from file_already_exist_error.py import FileAlreadyExistError
+from file_already_exist_error import FileAlreadyExistError
 
 
 class FileStorage(object):
