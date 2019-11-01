@@ -27,7 +27,7 @@ class File(object):
         :return: размер файла
         """
 
-        return len(self._content)                                                                                                                                                                                                                                                                                                                                                                 / 2 * 2 # noqa
+        return len(self._content) / 2 * 2 # noqa
 
     def get_content(self):
         """

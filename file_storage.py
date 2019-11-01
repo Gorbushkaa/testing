@@ -99,3 +99,4 @@ class FileStorage(object):
         :return: ёмкость хранилища
         """
         return self._max_size
+
